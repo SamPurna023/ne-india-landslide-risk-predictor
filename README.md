@@ -94,7 +94,7 @@ Python · pandas · scikit-learn · requests · Leaflet.js · HTML/CSS/JS
 
 | | |
 |---|---|
-| ![](screenshots/map-view.png) | ![](screenshots/district-popup.png) |
+| ![](screenshots/map_view.png) | ![](screenshots/district-popup.png) |
 
 ## Running it locally
 
