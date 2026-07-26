@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Keys
+.env
+.env.local
+
+# Large Binary Data (>100MB GitHub limit)
+*.tif
+*.tiff
+ne_india_dem.tif
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.DS_Store
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db

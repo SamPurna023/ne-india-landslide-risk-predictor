@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NE India Landslide Risk Predictor</title>
+<meta name="description" content="Landslide risk prediction map for North-East India districts, powered by Gradient Boosting trained on nationwide data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <svg class="brand-icon" width="36" height="30" viewBox="0 0 36 30" fill="none">
+      <path d="M2 28 L11 9 L17 18 L24 4 L34 28 Z"
+            fill="#4E7C5F" fill-opacity="0.18" stroke="#4E7C5F" stroke-width="1.4" stroke-linejoin="round"/>
+      <path d="M17 18 L24 4 L34 28 Z"
+            fill="#C1502E" fill-opacity="0.22" stroke="#C1502E" stroke-width="1.4" stroke-linejoin="round"/>
+      <line x1="2" y1="28" x2="34" y2="28" stroke="#2B4B44" stroke-width="1"/>
+    </svg>
+    <div>
+      <div class="brand-title">NE India Landslide Risk Predictor</div>
+      <div class="brand-sub">Gradient Boosting Model (Trained on 131 Nationwide Districts) · Displaying NE Region</div>
+    </div>
+  </div>
+  <div class="hstats" id="hstats"></div>
+</header>
+
+<div class="main">
+
+  <div id="map-wrap">
+    <div id="map"></div>
+    <div class="map-legend">
+      <div class="leg-title">At-Risk Probability</div>
+      <div class="leg-grad"></div>
+      <div class="leg-scale"><span>Low</span><span>Med</span><span>High</span></div>
+      <div class="leg-sep"></div>
+      <div class="leg-item"><div class="leg-dot" style="background:#C1502E"></div>At-Risk · correct</div>
+      <div class="leg-item"><div class="leg-dot" style="background:#4E7C5F"></div>Lower-Risk · correct</div>
+      <div class="leg-item"><div class="leg-dash"></div>Mismatch</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-head">
+      <span class="panel-lbl">NE Districts · Risk Rank</span>
+      <div class="ftabs">
+        <button class="ftab fa-all" id="tab-all"  onclick="setFilter('all')">ALL</button>
+        <button class="ftab"        id="tab-risk" onclick="setFilter('risk')">RISK</button>
+        <button class="ftab"        id="tab-safe" onclick="setFilter('safe')">SAFE</button>
+      </div>
+    </div>
+    <div class="dlist" id="dlist"></div>
+    <div class="detail" id="detail">
+      <div class="det-name" id="det-name"></div>
+      <div class="det-sub"  id="det-sub"></div>
+      <div class="det-grid" id="det-grid"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

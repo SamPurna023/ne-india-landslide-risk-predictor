@@ -1,0 +1,63 @@
+Model_Risk_Rank,Rank,District,State,Latitude,Longitude,Avg_Annual_Rainfall_mm,Avg_Slope_Degrees,Avg_Elevation_m,Rainfall_x_Slope,Actual_Label,Predicted_Label,AtRisk_Probability,Correct
+1,39,Lunglei,Mizoram,22.9519972,92.6338827,2353.3,7.36,312.0,17320.288,At-Risk,At-Risk,95.2,True
+2,74,Tawang,Arunachal Pradesh,27.6689525,91.9860059,1349.0,18.41,3761.0,24835.09,Lower-Risk,At-Risk,88.8,False
+3,45,Lawngtlai,Mizoram,22.3913377,92.7397189,2326.9,1.24,348.0,2885.356,At-Risk,At-Risk,87.2,True
+4,31,West Garo Hills,Meghalaya,25.6065343,90.2038335,2247.0,0.65,356.0,1460.55,At-Risk,At-Risk,86.2,True
+5,56,Lohit,Arunachal Pradesh,28.0350162,96.1713515,3743.5,7.0,584.0,26204.5,At-Risk,At-Risk,82.2,True
+6,60,Kolasib,Mizoram,24.1905469,92.7136595,1978.4,11.01,272.0,21782.184,At-Risk,At-Risk,79.7,True
+7,40,Kamrup,Assam,26.1468861,91.2227397,2804.0,0.13,42.0,364.52000000000004,At-Risk,At-Risk,77.7,True
+8,38,Aizawl,Mizoram,23.8608788,92.864694,1845.7,11.03,489.0,20358.071,At-Risk,At-Risk,77.7,True
+9,22,Cachar,Assam,24.75864,92.8816648,2855.3,0.16,28.0,456.848,At-Risk,At-Risk,75.1,True
+10,55,Karbi Anglong,Assam,26.0712781,93.4552969,2681.5,6.07,788.0,16276.705,At-Risk,At-Risk,72.8,True
+11,47,Hailakandi,Assam,24.5076094,92.6267589,2541.6,0.94,40.0,2389.104,At-Risk,At-Risk,68.8,True
+12,95,Bongaigaon,Assam,26.348883,90.6291434,3753.4,0.05,44.0,187.67000000000002,Lower-Risk,At-Risk,68.3,False
+13,49,Goalpara,Assam,26.0491877,90.6001859,3055.8,0.09,47.0,275.022,At-Risk,At-Risk,67.7,True
+14,34,East Khasi Hills,Meghalaya,25.4023736,91.8317178,2907.9,18.46,1730.0,53679.834,At-Risk,At-Risk,63.1,True
+15,78,East Siang,Arunachal Pradesh,28.0742219,95.4178149,3653.2,0.86,151.0,3141.752,Lower-Risk,At-Risk,60.3,False
+16,11,Imphal West,Manipur,24.7590802,93.8617365,1608.8,0.04,775.0,64.352,At-Risk,Lower-Risk,49.1,False
+17,112,Ukhrul,Manipur,25.3121261,94.4754982,1580.5,16.36,1672.0,25856.98,Lower-Risk,Lower-Risk,49.1,True
+18,105,Mokokchung,Nagaland,26.4795861,94.5105275,2835.1,2.95,285.0,8363.545,Lower-Risk,Lower-Risk,43.2,True
+19,127,Dhubri,Assam,26.132275,90.1249962,3372.3,0.06,30.0,202.338,Lower-Risk,Lower-Risk,43.2,True
+20,87,West Kameng,Arunachal Pradesh,27.2986936,92.4741211,4042.3,19.28,2009.0,77935.54400000001,Lower-Risk,Lower-Risk,41.9,True
+21,108,West Siang,Arunachal Pradesh,28.1970922,94.48407,6456.5,17.91,2170.0,115635.91500000001,Lower-Risk,Lower-Risk,41.9,True
+22,104,Upper Siang,Arunachal Pradesh,28.7312046,95.0377315,4547.6,20.02,2254.0,91042.952,Lower-Risk,Lower-Risk,41.9,True
+23,113,Kurung Kumey,Arunachal Pradesh,27.9863677,93.1578347,4308.0,19.62,1912.0,84522.96,Lower-Risk,Lower-Risk,41.9,True
+24,143,Bishnupur,Manipur,24.5263926,93.800487,1459.5,0.0,768.0,0.0,Lower-Risk,Lower-Risk,40.6,True
+25,115,Tirap,Arunachal Pradesh,27.030169,95.4979175,2632.8,5.64,567.0,14848.992,Lower-Risk,Lower-Risk,32.6,True
+26,90,South Garo Hills,Meghalaya,25.347969,90.5657773,3057.4,4.05,114.0,12382.47,Lower-Risk,Lower-Risk,27.9,True
+27,141,Thoubal,Manipur,24.6203931,94.0104782,1334.2,0.06,779.0,80.052,Lower-Risk,Lower-Risk,27.7,True
+28,84,Lower Subansiri,Arunachal Pradesh,27.6059753,93.8669707,4879.9,7.37,1730.0,35964.863,Lower-Risk,Lower-Risk,27.4,True
+29,76,North Tripura,Tripura,24.0921476,92.2451214,1929.5,0.7,99.0,1350.6499999999999,Lower-Risk,Lower-Risk,25.1,True
+30,125,Anjaw,Arunachal Pradesh,28.1553856,96.8407212,3688.9,6.35,4005.0,23424.515,Lower-Risk,Lower-Risk,25.1,True
+31,94,Tuensang,Nagaland,26.2342107,94.741553,2556.6,1.12,2061.0,2863.3920000000003,Lower-Risk,Lower-Risk,25.1,True
+32,142,Imphal East,Manipur,24.8326698,94.0168859,1421.9,0.81,787.0,1151.7390000000003,Lower-Risk,Lower-Risk,24.1,True
+33,67,Ribhoi,Meghalaya,25.723641,92.0426339,2571.9,1.67,879.0,4295.073,Lower-Risk,Lower-Risk,21.5,True
+34,117,Nagaon,Assam,26.3313646,92.7524763,2615.9,0.23,65.0,601.657,Lower-Risk,Lower-Risk,21.5,True
+35,99,Morigaon,Assam,26.2540561,92.3604704,2562.8,0.14,62.0,358.7920000000001,Lower-Risk,Lower-Risk,20.3,True
+36,71,Mamit,Mizoram,23.7564387,92.4515374,1790.6,6.05,287.0,10833.13,Lower-Risk,Lower-Risk,20.0,True
+37,137,Karimganj,Assam,24.5828196,92.3725487,2596.0,0.6,75.0,1557.6,Lower-Risk,Lower-Risk,19.9,True
+38,63,Churachandpur,Manipur,24.3095833,93.675022,1363.6,1.13,865.0,1540.8679999999997,Lower-Risk,Lower-Risk,18.8,True
+39,91,Changlang,Arunachal Pradesh,27.2698797,96.0602442,2791.5,3.7,517.0,10328.550000000001,Lower-Risk,Lower-Risk,18.5,True
+40,66,West Khasi Hills,Meghalaya,25.5814429,91.0851094,2598.4,0.5,954.0,1299.2,Lower-Risk,Lower-Risk,16.9,True
+41,102,Saiha,Mizoram,22.2876724,93.01336,2737.7,4.17,946.0,11416.208999999999,Lower-Risk,Lower-Risk,14.8,True
+42,144,Zunheboto,Nagaland,26.0123803,94.5123719,2235.5,10.58,1566.0,23651.59,Lower-Risk,Lower-Risk,14.8,True
+43,64,East Garo Hills,Meghalaya,25.6184946,90.6342162,1952.8,2.63,462.0,5135.864,Lower-Risk,Lower-Risk,13.9,True
+44,118,Champhai,Mizoram,23.5443743,93.3479506,1612.9,7.4,1520.0,11935.460000000001,Lower-Risk,Lower-Risk,13.8,True
+45,130,South Tripura,Tripura,23.1708278,91.638817,2035.1,0.61,42.0,1241.4109999999998,Lower-Risk,Lower-Risk,11.1,True
+46,75,West Tripura,Tripura,23.9153329,91.3879341,1935.4,0.31,42.0,599.974,Lower-Risk,Lower-Risk,10.3,True
+47,89,Phek,Nagaland,25.6700924,94.3843925,2235.9,14.46,1521.0,32331.114000000005,Lower-Risk,Lower-Risk,10.0,True
+48,145,Wokha,Nagaland,26.242251,94.1921153,2037.5,2.53,299.0,5154.875,Lower-Risk,Lower-Risk,9.3,True
+49,101,East Kameng,Arunachal Pradesh,27.557781,93.0753012,3389.1,16.0,1670.0,54225.6,Lower-Risk,Lower-Risk,8.3,True
+50,83,North Cachar Hills,Assam,25.5,93.0,1680.7,3.09,222.0,5193.363,Lower-Risk,Lower-Risk,6.2,True
+51,110,Dhalai,Tripura,23.8253158,91.9732227,1849.4,1.35,122.0,2496.6900000000005,Lower-Risk,Lower-Risk,6.0,True
+52,82,Serchhip,Mizoram,23.3052514,92.8455124,2202.3,10.76,1139.0,23696.748000000003,Lower-Risk,Lower-Risk,5.9,True
+53,122,Chandel,Manipur,24.1700959,94.0059673,1826.0,7.26,1399.0,13256.76,Lower-Risk,Lower-Risk,5.4,True
+54,93,Mon,Nagaland,26.666667,95.0,2673.7,6.22,1024.0,16630.413999999997,Lower-Risk,Lower-Risk,5.0,True
+55,120,Upper Subansiri,Arunachal Pradesh,28.2596054,94.0938106,3836.5,21.45,1218.0,82292.925,Lower-Risk,Lower-Risk,4.7,True
+56,100,Tamenglong,Manipur,25.0648711,93.5465432,2606.0,8.0,1044.0,20848.0,Lower-Risk,Lower-Risk,3.8,True
+57,96,Lower Dibang Valley,Arunachal Pradesh,28.2149563,95.878774,5772.5,10.99,1269.0,63439.775,Lower-Risk,Lower-Risk,2.7,True
+58,73,Papum Pare,Arunachal Pradesh,27.2863667,93.6187716,3598.7,7.53,1336.0,27098.211,Lower-Risk,Lower-Risk,2.4,True
+59,135,Dibang Valley,Arunachal Pradesh,28.8291044,95.9554096,4242.4,2.25,1444.0,9545.4,Lower-Risk,Lower-Risk,1.5,True
+60,106,Kohima,Nagaland,25.7169804,94.0982194,4235.6,3.37,1340.0,14273.972000000002,Lower-Risk,Lower-Risk,1.5,True
+61,97,Senapati,Manipur,25.3933697,94.1501773,1870.5,4.34,1189.0,8117.969999999999,Lower-Risk,Lower-Risk,1.4,True
+62,69,Jaintia Hills,Meghalaya,25.5,92.25,2151.7,1.33,1295.0,2861.761,Lower-Risk,Lower-Risk,1.2,True
